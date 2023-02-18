@@ -10,11 +10,11 @@ class Shopping {
       let sumCatalog = 0
 
       CATALOG.forEach(({ id, name, img, price }) => {
-         // sumCatalog = 0
          if (productsStore.indexOf(id) !== -1) {
             htmlCatalog += `
                <tr>
                   <td class="shopping-element__name">⚡ ${name}</td>
+                  <td class="shopping-element__img"><img src="${img}"/></td>
                   <td class="shopping-element__price">${price.toLocaleString()} $</td>
                </tr>
             `
@@ -22,7 +22,8 @@ class Shopping {
          }
       })
 
-
+      
+      
       const html = `
          <div class="shopping-container">
             <table>
