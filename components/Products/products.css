@@ -4,7 +4,8 @@
    gap: 45px;
    width: 80%;
    max-width: 1200px;
-   margin: var(--sp-small) auto;
+   margin:  auto;
+   padding: 20px 0px;
 }
 
 .products-element{

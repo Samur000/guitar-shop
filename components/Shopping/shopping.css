@@ -11,6 +11,7 @@
    padding: 30px;
    box-shadow: #fff;
    border-radius: 3px;
+   overflow: scroll;
 }
 .shopping-element__name{
    font-weight: bold;
