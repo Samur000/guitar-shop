@@ -38,7 +38,7 @@ class Products {
             <span class="products-element__name">${name}</span>
             <img class="products-element__img" src="${img}"/>
             <span class="products-element__price">
-               ⚡ ${price.toLocaleString()} USD
+               ⚡ ${price.toLocaleString()} $
             </span>
             <button class="products-element__btn ${activeClass}" onclick="productsPage.handleSetLocationStorage(this, '${id}')">
                ${activeText}
